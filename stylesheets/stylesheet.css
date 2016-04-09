@@ -1,3 +1,4 @@
+/*
 * {
   box-sizing: border-box; }
 
@@ -153,6 +154,8 @@ a {
   line-height: 1.45;
   border-radius: 0.3rem; }
 .main-content pre code, .main-content pre tt {
+
+
   display: inline;
   max-width: initial;
   padding: 0;
@@ -243,3 +246,4 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+*/
