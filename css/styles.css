@@ -1,0 +1,86 @@
+
+/* Fonts */
+
+@font-face {
+    font-family: 'League Gothic';
+    src: url(./fonts/LeagueGothic-Regular.woff) format("woff")
+}
+
+/* Layout */
+.col1 {
+	width: 20%;
+	float: left;
+	margin-left: 20px;
+}
+#main {
+	width: 85%;
+	margin: 0 auto;
+	height: 800px;
+	position: relative;
+}
+
+.background-responsive {
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 0px;
+	display: block;
+}
+/* Navigation */
+#navigation {
+	background-color: #ffffff;
+}
+
+#navigation > ul li {
+	width: auto;
+	height: 40px;
+	margin-left: 20px;
+	float: left;
+}
+
+#navigation ul li a {
+	text-align: center;
+	font-family: "League Gothic", sans-serif;
+	font-size: 1.9em;
+	color: #4D4C4C;
+	text-decoration: none;
+}
+
+#navigation ul li > div {
+	height: 300px;
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 40px;
+	position: absolute;
+	left: 0;
+	background-color: #E5E1D5;
+	display: none;
+	z-index: 999;
+
+}
+
+#navigation ul li div a {
+	font-family: serif;
+	font-size: 1.2em;
+}
+
+.nested-nav-show {
+    display: block!important
+}
+
+/* Content */
+#content-container ul li{
+	position: relative;
+}
+.content {
+	height: 500px;
+	width:85%;
+	background-color: #fff;
+	opacity: 0.6;
+}
+/*Clear fix */
+
+.clear {
+	overflow: hidden;
+	clear: both;
+}
