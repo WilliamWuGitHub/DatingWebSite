@@ -12,11 +12,18 @@
 	float: left;
 	margin-left: 20px;
 }
+#header {
+		width: 100%;
+		position: fixed;
+		background-color: #E5E1D5;
+		z-index: 2;
+}
 #main {
-	width: 85%;
+	width: 90%;
 	margin: 0 auto;
-	height: 800px;
+	height: auto;
 	position: relative;
+	top: 100px;
 }
 
 .background-responsive {
@@ -28,6 +35,8 @@
 }
 /* Navigation */
 #navigation {
+	width: 90%;
+	margin: 0 auto;
 	background-color: #ffffff;
 }
 
@@ -41,7 +50,7 @@
 #navigation ul li a {
 	text-align: center;
 	font-family: "League Gothic", sans-serif;
-	font-size: 1.9em;
+	font-size: 1.2em;
 	color: #4D4C4C;
 	text-decoration: none;
 }
@@ -72,9 +81,10 @@
 #content-container ul li{
 	position: relative;
 }
-.content {
-	height: 500px;
+#main .content {
+	height: 800px;
 	width:85%;
+	margin: 0 auto;
 	background-color: #fff;
 	opacity: 0.6;
 }
@@ -83,4 +93,17 @@
 .clear {
 	overflow: hidden;
 	clear: both;
+}
+
+#footer {
+	height: 150px;
+	position: relative;
+	background-color: #E5E1D5;
+}
+#footer .content {
+	width: 85%;
+	margin: 0 auto;
+}
+#footer .content ul li a {
+	text-decoration: none;
 }

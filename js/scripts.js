@@ -150,10 +150,8 @@ $(document).ready(function(){
                 }
     			if(_.prev){		  
     				_.prev
-    					.stop()
-    					.animate({left:getOutside()}, 500,'easeInCubic', function(){
-    					     $(this).css({display:'none'});
-    					})
+    					.stop().css({display:'none', left:getOutside()})
+    					.animate({left:getOutside()}, 500,'easeInCubic');
                 }
             }
             
